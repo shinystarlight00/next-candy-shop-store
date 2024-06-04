@@ -1,7 +1,7 @@
 // import { DevTip } from "../DevTip";
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
-import { BsDiscord, BsGithub, BsTwitter } from 'react-icons/bs';
+import { BsDiscord, BsGithub } from 'react-icons/bs';
 import useWalletBalance from '../../context/WalletBalanceProvider';
 import siteData from '../../data/siteMetadata';
 import ThemeMode from '../theme/ThemeMode';
@@ -26,7 +26,7 @@ const Footer = () => {
             Github
           </a>
         )}
-        {siteData.social.twitter && (
+        {/* {siteData.social.twitter && (
           <a
             className="text-blue-600 hover:underline flex items-center gap-1 font-black text-sm md:text-base"
             href={siteData.social.twitter}
@@ -36,7 +36,7 @@ const Footer = () => {
             <BsTwitter />
             Twitter
           </a>
-        )}
+        )} */}
         {/* {siteData.social.instagram && (
           <a
             className="text-blue-600 hover:underline flex items-center gap-1 font-black text-sm md:text-base"
